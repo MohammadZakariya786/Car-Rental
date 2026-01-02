@@ -4,3 +4,5 @@ node_modules/
 # Environment variables
 .env
 .env.local
+temp_auto_push.bat
+temp_interactive_push.bat
