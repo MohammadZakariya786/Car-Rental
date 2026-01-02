@@ -84,7 +84,7 @@ const Cars = () => {
         transition={{duration:0.5,delay:0.3}}
         className='flex items-center bg-white px-4 mt-6 max-w-140 w-full h-12 rounded-full shadow'>
           <img src={assets.search_icon} alt='search' className='w-4.2 h-4.2 mr-2'/>
-          <input onChange={(e)=>setInput(e.target.value)} value={input} type='text' placeholder='Search by make, model, or features' 
+          <input onChange={(e)=>setInput(e.target.value)} value={input} type='text' placeholder='Search by brand, model, or category'
           className='w-full h-full outline-none text-gray-500'/>
           <img src={assets.filter_icon} alt='search' className='w-4.2 h-4.2 ml-2'/>
         </motion.div>
